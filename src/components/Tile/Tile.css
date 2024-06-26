@@ -1,0 +1,12 @@
+.tile {
+  display: flex;
+  flex-direction: column;
+  background-color: #3b3b3b;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  height: 80px;
+  width: 200px;
+  text-align: center;
+  margin: 5px;
+}

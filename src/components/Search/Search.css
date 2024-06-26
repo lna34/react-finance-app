@@ -1,0 +1,26 @@
+.searchContainer {
+  width: 100%;
+  padding: 20px;
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+.searchCompanies {
+  background-color: #444;
+  color: #ccc;
+  border: 1px solid #555;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.searchCompaniesButton {
+  padding: 10px 20px;
+  background-color: #ff7f50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}

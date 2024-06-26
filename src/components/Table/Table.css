@@ -1,0 +1,81 @@
+/* Table.css */
+
+/* Container styles */
+.tableContainer {
+  padding: 20px;
+  background-color: #2c2c2c;
+  border-radius: 10px;
+  overflow-x: auto;
+  max-height: calc(100vh - 105px);
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #ffffff;
+}
+
+/* Table header and data cell styles */
+th,
+td {
+  padding: 10px 15px;
+  text-align: left;
+}
+
+.tableHeader {
+  background-color: #4a4a4a;
+  font-weight: bold;
+  border-bottom: 2px solid #616161;
+}
+
+.tableDataCell {
+  border-bottom: 1px solid #616161;
+}
+
+/* Row hover effect */
+tr:hover .tableDataCell {
+  background-color: #505050;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr {
+    border: 1px solid #4a4a4a;
+    margin-bottom: 10px;
+  }
+
+  td {
+    border: none;
+    border-bottom: 1px solid #4a4a4a;
+    position: relative;
+    padding-left: 50%;
+  }
+
+  td:before {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+    content: attr(data-label);
+    color: #ff4081;
+    font-weight: bold;
+  }
+}

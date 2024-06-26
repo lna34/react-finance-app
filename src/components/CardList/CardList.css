@@ -1,0 +1,8 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: calc(100vh - 161px);
+  overflow-y: auto;
+  margin-top: 15px;
+}

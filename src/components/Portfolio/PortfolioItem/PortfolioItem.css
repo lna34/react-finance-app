@@ -1,0 +1,24 @@
+.portfolioItemContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
+  color: #ccc;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.portfolioItemSymbol {
+  font-size: 24px;
+  font-weight: bold;
+}
+.portfolioItemDelete {
+  padding: 10px 20px;
+  background-color: #ff7f50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.portfolioItemDelete:hover {
+  background-color: #cc5c33;
+}

@@ -1,0 +1,19 @@
+.addPortfolioButton {
+  padding: 10px 20px;
+  background-color: #ff7f50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.addPortfolioButton:hover {
+  background-color: #cc5c33;
+}
+
+.addPortfolioButton:disabled {
+  background-color: #666;
+  color: #ccc;
+  cursor: not-allowed;
+}

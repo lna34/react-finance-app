@@ -1,0 +1,40 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  background-color: #333;
+  align-items: center;
+  color: #ccc;
+  padding: 20px;
+  margin-bottom: 10px;
+  width: 90%;
+}
+.details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  margin-left: 10px;
+}
+.card img {
+  width: 200px;
+  border-radius: 50%;
+  border: 2px solid #666;
+}
+
+.card form {
+  margin-left: auto;
+}
+
+.details h2 {
+  font-weight: 400;
+}
+
+.symbol {
+  width: 100px;
+  background-color: #007bff;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  border-radius: 4px;
+}
