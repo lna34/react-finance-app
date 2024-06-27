@@ -7,7 +7,6 @@ import CompanyProfile from "../components/CompanyProfile/CompanyProfile";
 import IncomeStatement from "../components/IncomeStatement/IncomeStatement";
 import PortfolioPage from "../pages/PortfolioPage/Portfolio";
 import DesignPage from "../pages/DesignPage/DesignPage";
-import Test from "../components/Test/Test";
 import BalanceSheet from "../components/BalanceSheet/BalanceSheet";
 import CashflowStatement from "../components/CashflowStatement/CashflowStatement";
 
